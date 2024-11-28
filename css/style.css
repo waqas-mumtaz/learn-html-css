@@ -1,0 +1,51 @@
+
+
+.header{
+    background-color: aquamarine;
+    color: tomato;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.header-2{
+    color: #6c757d;
+    padding: 20px 25px;
+}
+
+
+/* utility classes */
+
+.bg-primary{
+    background-color: aquamarine;
+}
+
+.text-primary{
+    color: tomato;
+}
+
+.text-center{
+    text-align: center;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.px-5{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-secondary{
+    color: #6c757d;
+}
+
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
