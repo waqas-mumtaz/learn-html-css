@@ -6,19 +6,20 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <header class="flex items-center justify-between bg-slate-200 border-b-8 border-slate-700 border-solid">
-    <div>
-        <img src="https://www.mwimmerdesign.de/wp-content/uploads/2023/01/abstraktes-logo.svg" alt="" class="w-52">
-    </div>
-    <div>
-        <ul>
-            <li class="inline px-5"><a href="">Home</a></li>
-            <li class="inline px-5"><a href="">About</a></li>
-            <li class="inline px-5"><a href="">Services</a></li>
-            <li class="inline px-5"><a href="">Contact</a></li>
-        </ul>
-    </div>
-  </header>
+ <main class="container bg-gray-100 mx-auto mt-10 p-10 flex gap-10 flex flex-col">
+  <section class="flex gap-10 bg-gray-200 p-10 justify-end">
+    <div class="bg-red-400 w-20 h-20 rounded"></div>
+    <div class="bg-red-400 w-20 h-20 rounded"></div>
+    <div class="bg-red-400 w-20 h-20 rounded"></div>
+    <div class="bg-red-400 w-20 h-20 rounded"></div>
+  </section>
+  <section class="flex gap-10 bg-gray-200 p-10 justify-end">
+    <div class="bg-red-400 rounded order-2"> box 1</div>
+    <div class="bg-red-400 rounded grow order-1">box 2</div>
+    <div class="bg-red-400 rounded order-4">box 3</div>
+    <div class="bg-red-400 rounded order-3">box 4</div>
+  </section>
+ </main>
 
 </body>
 </html>
